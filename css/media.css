@@ -9,7 +9,6 @@
  	.lorem-bitmap2 {
 		margin-right: -50px;
 	}
- }
 }
 
 /**	>= 1200px **/
@@ -30,6 +29,24 @@
 
 	.lorem-bitmap2 {
 		margin-right: 130px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.branding {
+		margin-left: 80px;
+	}
+
+	.design{
+		position: relative;
+		left: 480px;
+		top: -265px;
+	}
+
+	.development {
+		position: relative;
+		left: 880px;
+		top: -530px;
 	}
 }
 

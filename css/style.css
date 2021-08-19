@@ -40,6 +40,10 @@
 	left: 45%;
 }
 
+a {
+	text-decoration: none;
+}
+
 h1 {
 	font-family: Oswald;
 	font-weight: 500;
@@ -48,6 +52,14 @@ h1 {
 	text-align: center;
 	margin-top: -600px;
 	margin-bottom: 0px;
+}
+
+h2 {
+	font-family: Oswald;
+	font-weight: 700;
+	font-size: 48px;
+	color: #252525;
+	margin-left: 100px;
 }
 
 h3 {
@@ -70,6 +82,17 @@ h5 {
 	font-weight: 700;
 	font-size: 36px;
 	color: #333;
+}
+
+h6 {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 20px;
+	color: #252525;
+
+	margin-bottom: 0;
+	padding-left: 44px;
+	padding-top: 50px;
 }
 
 .h5-bitmap {
@@ -125,4 +148,557 @@ h5 {
 	margin-right: 40px;
 	margin-top: -330px;
 	z-index: 3;
+}
+
+.our-services {
+	background: #FBFBFB;
+	margin-bottom: 0;
+
+}
+
+.hr-our {
+	margin-left: 100px;
+	margin-top: -30px;
+	border: 2px solid #252525;
+	width: 45px;
+	color: #252525;
+}
+
+.hr-branding {
+	border: 2px solid #252525;
+	width: 35px;
+	margin-left: 45px;
+}
+
+.branding {
+	margin-left: 40px;
+	background: white;
+	max-width: 373px;
+}
+
+.design {
+	background: white;
+	max-width: 373px;
+	position: relative;
+	left: 430px;
+	top: -265px;
+}
+
+.development {
+	background: white;
+	max-width: 373px;
+	position: relative;
+	left: 830px;
+	top: -530px;
+}
+
+
+.bdg-icon1 {
+	position: relative;
+	left: 272px;
+	top: -50px;
+}
+
+.bgd-text {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	color: #777;
+
+	position: relative;
+	left: 44px;
+	top: -44px;
+}
+
+.read-more {
+	font-family: Oswald;
+	font-weight: 300;
+	font-size: 12px;
+	color: #252525;
+	padding-bottom: 35px;
+
+	position: relative;
+	left: -28px;
+	top: -20px;
+}
+
+
+
+/**	>= 1450px **/
+
+@media screen and (min-width: 1450px) {
+	/** Первая секция после шапки**/
+
+	 .mg-left {
+	 	margin-left: 150px;
+	 }
+ 	.lorem-bitmap2 {
+		margin-right: -50px;
+	}
+}
+
+/**	>= 1200px **/
+
+@media screen and (min-width: 1200px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 900px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		right: 100px;
+	}
+
+	/** Первая секция после шапки **/
+
+	.lorem-bitmap2 {
+		margin-right: 130px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.branding {
+		margin-left: 80px;
+	}
+
+	.design{
+		position: relative;
+		left: 480px;
+		top: -265px;
+	}
+
+	.development {
+		position: relative;
+		left: 880px;
+		top: -530px;
+		background: white;
+	}
+}
+
+/**	<=1199px **/
+
+@media screen and (max-width: 1199px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 900px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		right: 100px;
+	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	/** Первая секция после шапки **/
+
+	.lorem-bitmap2 {
+		position: relative;
+		top: 95px;
+		right: 350px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.branding {
+		margin-left: 100px;
+		background: white;
+		margin-top: -13px;
+	}
+
+	.design{
+		position: relative;
+		left: 550px;
+		top: -267px;
+		background: white;
+	}
+
+	.development {
+		position: relative;
+		left: 30%;
+		top: -250px;
+		background: white;
+	}
+}
+
+/**	<= 1023px **/
+
+@media screen and (max-width: 1023px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 0;
+	}
+
+	h1 {
+		margin-top: -450px;
+		margin-bottom: 0px;
+		font-size: 57px;
+	}
+
+	h4 {
+		margin-top: 0;
+	}
+
+	.number-1, .number-2 {
+		top: 230px;
+	}
+
+	/** Первая секция после шапки **/
+	
+	.lorem-bitmap {
+		top: -310px;
+	}
+
+	.lorem-bitmap2 {
+		position: relative;
+		right: 130px;
+	}
+
+	.img-bitmap {
+		width: 200px;
+		left: 260px;
+	}
+
+	.img-bitmap2 {
+		left: 103px;
+		width: 200px;
+	}
+
+	.img-greenbox {
+		width: 200px;
+		left: 170px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.branding {
+		margin-left: 50px;
+		background: purple;
+		margin-top: -13px;
+	}
+
+	.design{
+		position: relative;
+		left: 460px;
+		top: -267px;
+		background: purple;
+
+	}
+
+	.development {
+		position: relative;
+		left: 30%;
+		top: -250px;
+		background: purple;
+
+	}
+
+}
+
+/** <=799px	**/
+
+@media screen and (max-width: 799px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 106vw;
+	}
+
+	.nav-header {
+		font-size: 14px;
+		top: -680px;
+		right: 0;
+	}
+
+	h1 {
+		font-size: 42px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+
+	.number-1, .number-2 {
+		top: 210px;
+	}
+	/** Первая секция после шапки**/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-left: 70px; 
+		margin-top: 500px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 70px; 
+	}
+
+	.lorem-bitmap {
+		left: 80px;
+		top: -230px; 
+	}
+
+	.lorem-bitmap2 {
+		right: 30px;
+		top: 150px;
+	}
+
+	.img-bitmap {
+		width: 150px;
+		left: 280px;
+		top: -200px;
+	}
+
+	.img-greenbox {
+		width: 150px;
+		left: 220px;
+		top: -120px;
+	}
+
+	.img-bitmap2 {
+		width: 150px;
+		left: 170px;
+		top: -40px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.branding {
+		margin-left: 30%;
+		background: purple;
+		margin-top: -13px;
+	}
+
+	.design{
+		position: relative;
+		left: 30%;
+		top: -10px;
+		background: purple;
+
+	}
+
+	.development {
+		position: relative;
+		left: 30%;
+		top: -20px;
+		background: purple;
+
+	}
+
+}
+
+/** <=559px	**/
+
+@media screen and (max-width: 559px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 140vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 0;
+		padding-right: 30px;
+	}
+
+	h1 {
+		font-size: 38px;
+		margin-left: 37px;
+	}
+	h4 {
+		font-size: 15px;
+		margin-left: 20px;
+	}
+	.number-1, .number-2 {
+		left: 40%;
+	}
+
+	/** Первая секция после шапки **/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-left: 70px; 
+		margin-top: 370px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 70px; 
+	}
+
+	.lorem-bitmap {
+		 top: -200px;
+	}
+
+	.lorem-bitmap2 {
+		right: -45px;
+		top: 170px;
+	}
+
+	.img-bitmap {
+		top: -180px;
+		left: 280px;
+		width: 115px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 235px;
+		width: 115px;
+	}
+
+	.img-bitmap2 {
+		top: -20px;
+		left: 190px;
+		width: 115px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.h2-our {
+
+	}
+
+	.branding {
+		margin-left: 20%;
+		background: white;
+		margin-top: -13px;
+	}
+
+	.design{
+		position: relative;
+		left: 20%;
+		top: -10px;
+		background: white;
+
+	}
+
+	.development {
+		position: relative;
+		left: 20%;
+		top: -20px;
+		background: white;
+
+	}
+}
+
+/**	<=375px **/
+
+@media screen and (max-width: 375px) {
+	/** Шапка **/
+	.bg-header {
+		height: 700px;
+		width: 150vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 5px;
+		padding-right: 10px;
+	}
+
+	h1 {
+		font-size: 35px;
+		margin-left: 15px;
+	}
+	h4 {
+		font-size: 14px;
+		margin-left: 9px;
+	}
+	.number-1, .number-2 {
+		left: 35%;
+	}
+	/** Первая секция после шапки **/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-top: 300px;
+		margin-left: 9px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 9px;
+	}
+
+	.lorem-bitmap {
+		 top: -170px;
+		 left: 9px;
+	}
+
+	.lorem-bitmap2 {
+		right: -145px;
+		top: 200px;
+	}
+
+	.img-bitmap {
+		top: -160px;
+		left: 210px;
+		width: 100px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 175px;
+		width: 100px;
+	}
+
+	.img-bitmap2 {
+		top: -70px;
+		left: 140px;
+		width: 100px;
+	}
+
+	/** Секция Our Stories - вторая в main**/
+
+	.h2-our {
+		margin-left: 9px;
+	}
+}
+
+@media screen and (max-width: 323px) {
+	
+	/** Фотки и текст в первой секции для =<323px **/
+	
+	.lorem-bitmap {
+		 top: -55px;
+		 left: 83px;
+	}
+
+	.lorem-bitmap2 {
+		right: -45px;
+		top: 115px;
+	}
+
+	.img-bitmap {
+		top: -180px;
+		left: 160px;
+		width: 100px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 115px;
+		width: 100px;
+	}
+
+	.img-bitmap2 {
+		top: -202px;
+		left: 288px;
+		width: 100px;2
 }
