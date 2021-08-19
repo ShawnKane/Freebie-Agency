@@ -1,0 +1,358 @@
+/**	>= 1450px **/
+
+@media screen and (min-width: 1450px) {
+	/** Первая секция после шапки**/
+
+	 .mg-left {
+	 	margin-left: 150px;
+	 }
+ 	.lorem-bitmap2 {
+		margin-right: -50px;
+	}
+ }
+}
+
+/**	>= 1200px **/
+
+@media screen and (min-width: 1200px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 900px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		right: 100px;
+	}
+
+	/** Первая секция после шапки **/
+
+	.lorem-bitmap2 {
+		margin-right: 130px;
+	}
+}
+
+/**	<=1199px **/
+
+@media screen and (max-width: 1199px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 900px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		right: 100px;
+	}
+
+	h1 {
+		font-size: 65px;
+	}
+
+	h4 {
+		font-size: 18px;
+	}
+
+	/** Первая секция после шапки **/
+
+	.lorem-bitmap2 {
+		position: relative;
+		top: 95px;
+		right: 350px;
+	}
+}
+
+/**	<= 1023px **/
+
+@media screen and (max-width: 1023px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 102vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 0;
+	}
+
+	h1 {
+		margin-top: -450px;
+		margin-bottom: 0px;
+		font-size: 57px;
+	}
+
+	h4 {
+		margin-top: 0;
+	}
+
+	.number-1, .number-2 {
+		top: 230px;
+	}
+
+	/** Первая секция после шапки **/
+	
+	.lorem-bitmap {
+		top: -310px;
+	}
+
+	.lorem-bitmap2 {
+		position: relative;
+		right: 130px;
+	}
+
+	.img-bitmap {
+		width: 200px;
+		left: 260px;
+	}
+
+	.img-bitmap2 {
+		left: 103px;
+		width: 200px;
+	}
+
+	.img-greenbox {
+		width: 200px;
+		left: 170px;
+	}
+}
+
+/** <=799px	**/
+
+@media screen and (max-width: 799px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 106vw;
+	}
+
+	.nav-header {
+		font-size: 14px;
+		top: -680px;
+		right: 0;
+	}
+
+	h1 {
+		font-size: 42px;
+	}
+	h4 {
+		font-size: 16px;
+	}
+
+	.number-1, .number-2 {
+		top: 210px;
+	}
+	/** Первая секция после шапки**/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-left: 70px; 
+		margin-top: 500px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 70px; 
+	}
+
+	.lorem-bitmap {
+		left: 80px;
+		top: -230px; 
+	}
+
+	.lorem-bitmap2 {
+		right: 30px;
+		top: 150px;
+	}
+
+	.img-bitmap {
+		width: 150px;
+		left: 280px;
+		top: -200px;
+	}
+
+	.img-greenbox {
+		width: 150px;
+		left: 220px;
+		top: -120px;
+	}
+
+	.img-bitmap2 {
+		width: 150px;
+		left: 170px;
+		top: -40px;
+	}
+
+	
+
+}
+
+/** <=559px	**/
+
+@media screen and (max-width: 559px) {
+	/** Шапка **/
+
+	.bg-header {
+		height: 700px;
+		width: 140vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 0;
+		padding-right: 30px;
+	}
+
+	h1 {
+		font-size: 38px;
+		margin-left: 37px;
+	}
+	h4 {
+		font-size: 15px;
+		margin-left: 20px;
+	}
+	.number-1, .number-2 {
+		left: 40%;
+	}
+
+	/** Первая секция после шапки **/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-left: 70px; 
+		margin-top: 370px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 70px; 
+	}
+
+	.lorem-bitmap {
+		 top: -200px;
+	}
+
+	.lorem-bitmap2 {
+		right: -45px;
+		top: 170px;
+	}
+
+	.img-bitmap {
+		top: -180px;
+		left: 280px;
+		width: 115px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 235px;
+		width: 115px;
+	}
+
+	.img-bitmap2 {
+		top: -20px;
+		left: 190px;
+		width: 115px;
+	}
+}
+
+/**	<=375px **/
+
+@media screen and (max-width: 375px) {
+	/** Шапка **/
+	.bg-header {
+		height: 700px;
+		width: 150vw;
+	}
+
+	.nav-header {
+		top: -680px;
+		right: 5px;
+		padding-right: 10px;
+	}
+
+	h1 {
+		font-size: 35px;
+		margin-left: 15px;
+	}
+	h4 {
+		font-size: 14px;
+		margin-left: 9px;
+	}
+	.number-1, .number-2 {
+		left: 35%;
+	}
+	/** Первая секция после шапки **/
+	.h5-bitmap { 
+		font-size: 30px;
+		margin-top: 300px;
+		margin-left: 9px;
+	}
+
+	.h3-bitmap {
+		font-size: 36px;
+		margin-left: 9px;
+	}
+
+	.lorem-bitmap {
+		 top: -170px;
+		 left: 9px;
+	}
+
+	.lorem-bitmap2 {
+		right: -145px;
+		top: 200px;
+	}
+
+	.img-bitmap {
+		top: -160px;
+		left: 210px;
+		width: 100px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 175px;
+		width: 100px;
+	}
+
+	.img-bitmap2 {
+		top: -70px;
+		left: 140px;
+		width: 100px;
+	}
+}
+
+@media screen and (max-width: 323px) {
+	
+	/** Фотки и текст в первой секции для =<323px **/
+	
+	.lorem-bitmap {
+		 top: -55px;
+		 left: 83px;
+	}
+
+	.lorem-bitmap2 {
+		right: -45px;
+		top: 115px;
+	}
+
+	.img-bitmap {
+		top: -180px;
+		left: 160px;
+		width: 100px;
+	}
+
+	.img-greenbox {
+		top: -100px;
+		left: 115px;
+		width: 100px;
+	}
+
+	.img-bitmap2 {
+		top: -202px;
+		left: 288px;
+		width: 100px;2
+}

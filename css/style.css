@@ -50,6 +50,13 @@ h1 {
 	margin-bottom: 0px;
 }
 
+h3 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 42px;
+	color: #504E4E;
+}
+
 h4 {
 	font-family: 'Open Sans';
 	font-weight: 400;
@@ -58,133 +65,64 @@ h4 {
 	text-align: center;
 }
 
-
-@media screen and (min-width: 1200px) {
-	.bg-header {
-		height: 900px;
-		width: 102%;
-	}
-
-	.nav-header {
-		right: 100px;
-	}
-
-	.number-1 {
-		
-	}
+h5 {
+	font-family: Oswald;
+	font-weight: 700;
+	font-size: 36px;
+	color: #333;
 }
 
-@media screen and (max-width: 1199px) {
-	.bg-header {
-		height: 900px;
-		width: 102%;
-	}
-
-	.nav-header {
-		right: 100px;
-	}
-
-	h1 {
-		font-size: 65px;
-	}
-
-	h4 {
-		font-size: 18px;
-	}
+.h5-bitmap {
+	margin-left: 100px;
+	margin-bottom: 0;
+	margin-top: 645px;
 }
 
-@media screen and (max-width: 1023px) {
-	.bg-header {
-		height: 700px;
-		width: 102%;
-	}
-
-	.nav-header {
-		top: -680px;
-		right: 0;
-	}
-
-	h1 {
-		margin-top: -450px;
-		margin-bottom: 0px;
-		font-size: 57px;
-	}
-
-	h4 {
-		margin-top: 0;
-	}
-
-	.number-1, .number-2 {
-		top: 230px;
-	}
+.h3-bitmap {
+	margin-left: 100px;
+	margin-top: 4px;
 }
 
-@media screen and (max-width: 799px) {
-	.bg-header {
-		height: 700px;
-		width: 102%;
-	}
-
-	.nav-header {
-		font-size: 14px;
-		top: -680px;
-		right: 0;
-	}
-
-	h1 {
-		font-size: 44px;
-	}
-	h4 {
-		font-size: 16px;
-	}
-
-	.number-1, .number-2 {
-		top: 210px;
-	}
+.img-bitmap {
+	position: relative;
+	top: -250px;
+	left: 280px;
+	z-index: 2s;
 }
 
-@media screen and (max-width: 559px) {
-	.bg-header {
-		height: 700px;
-		width: 102%;
-	}
-
-	.nav-header {
-		top: -680px;
-		right: 10px;
-		padding-right: 30px;
-	}
-
-	h1 {
-		font-size: 38px;
-	}
-	h4 {
-		font-size: 15px;
-	}
-	.number-1, .number-2 {
-		left: 40%;
-	}
+.img-bitmap2 {
+	position: relative;
+	z-index: 0;
+	left: 80px;
+	top: -90px;
 }
 
-@media screen and (max-width: 375px) {
-	.bg-header {
-		height: 700px;
-		width: 102%;
-	}
+.img-greenbox {
+	position: relative;
+	z-index: 99;
+	left: 180px;
+	top: -170px;
+	z-index: 1;
+}
 
-	.nav-header {
-		top: -680px;
-		right: 5px;
-		padding-right: 10px;
-	}
+.lorem-bitmap, .lorem-bitmap2 {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	font-size: 15px;
+	color: #5B5858;
+}
 
-	h1 {
-		font-size: 35px;
-	}
-	h4 {
-		font-size: 14px;
-	}
-	.number-1, .number-2 {
-		left: 35%;
-	}
+
+.lorem-bitmap {
+	position: relative;
+	top: -450px;
+	left: 120px;
+}
+
+.lorem-bitmap2 {
+
+	float: right;
+	margin-right: 40px;
+	margin-top: -330px;
+	z-index: 3;
 }
